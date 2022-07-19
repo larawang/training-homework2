@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <h1> Loading Bar</h1>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body onload="move()">
+</body>
+<div id="myProgress">
+    <div id="myBar">
+    </div>
+    <br>
+    <button onclick="move()">Reload</button>
+    
+    <form autocomplete="off" action="/action_page.php">
+        <div class="autocomplete" style="width:300px;">
+          <input id="myInput" type="text" name="myCountry" placeholder="Country">
+        </div>
+        <input type="submit">
+      </form>
+    
+    <style>
+        #myProgress{
+            width: 100%;
+            background-color: rgb(221, 235, 247);
+        }
+        #myBar{
+            width: 1%;
+            height: 30px;
+            background-color: rgb(10, 68, 168);
+            text-align: center;
+            line-height: 40px;
+            color: rgb(191, 152, 227);
+        }
+    </style>
+
+    <script src="script.js">
+    </script>
